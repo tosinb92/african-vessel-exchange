@@ -38,3 +38,6 @@ header{background:#101719f2;border-bottom:1px solid #ffffff14}
 .about{background:#f5f2eb}
 footer{background:#0d1416}
 .brand .mark{color:#f5f2eb}.brand .mark span{color:#c3a66f}
+
+/* composition pass — editorial hierarchy */
+.sectionStatement{max-width:1200px;margin:0 auto;padding:105px 0 68px;display:grid;grid-template-columns:1.35fr .65fr;column-gap:90px;align-items:end}.sectionStatement .eyebrow{grid-column:1/-1}.sectionStatement h2{font:48px/1.08 Georgia,serif;letter-spacing:-1px;margin:12px 0 0;max-width:760px;color:#172326}.sectionStatement>p:last-child{font-size:14px;line-height:1.8;color:#697476;margin:0}.market{padding-top:65px}.process{padding-top:100px;padding-bottom:110px}.steps article{padding-top:32px}.capital{margin-top:0}.partners{margin-top:0}.about{border-top:1px solid #d8d1c5}.proof{background:#11191c;color:#e9e4da;border:0}.proof span{border-color:#ffffff18}.proof strong{color:#c3a66f}.split{min-height:560px}.splitCopy{padding:80px 8vw}.splitCopy h2,.capital h2{font-size:clamp(38px,4vw,60px);line-height:1.04}.opportunityBand{padding-top:68px;padding-bottom:68px}.opportunityBand h2{font-size:42px}.partners h2{margin-bottom:0}@media(max-width:760px){.sectionStatement{display:block;padding:70px 18px 45px}.sectionStatement h2{font-size:37px}.sectionStatement>p:last-child{margin-top:20px}.market{padding-top:45px}}
