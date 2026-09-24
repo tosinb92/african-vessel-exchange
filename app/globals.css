@@ -15,3 +15,26 @@ body{background:#f7f5ef;color:#132633}.hero{min-height:720px}.hero:after{content
 
 /* partner presentation: open, editorial, no boxed cards */
 .partners{background:#eee9df;padding:100px 8vw}.partnerHead{max-width:1200px;margin:0 auto 54px;display:grid;grid-template-columns:1fr 1fr;column-gap:70px;align-items:end}.partnerHead .eyebrow{grid-column:1/-1}.partnerHead h2{font:46px/1.05 Georgia,serif;text-align:left;margin:10px 0;color:#092b47}.partnerHead>p:last-child{font-size:14px;line-height:1.7;color:#63727b;margin:0}.partnerGrid{max-width:1200px;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid #c9c2b5;border-bottom:1px solid #c9c2b5}.partnerGrid article{background:transparent;border:0;box-shadow:none;min-height:250px;padding:48px 55px 48px 0}.partnerGrid article+article{border-left:1px solid #c9c2b5;padding-left:55px}.partnerLogo{max-width:280px;max-height:90px;margin-bottom:24px}.baaMark{color:#00483f;margin-bottom:22px}.baaMark b{font:72px/.78 Georgia,serif;letter-spacing:-6px;display:block}.baaMark strong{font-size:19px;display:block;margin-top:13px}.baaMark small{display:block;letter-spacing:3px;font-size:8px;margin-top:7px}.partnerGrid span{font-size:9px;letter-spacing:2px}.partnerGrid p{max-width:430px}.inventoryGate{max-width:1200px;margin:0 auto 75px;background:#071f33;color:#fff;padding:55px 62px;display:grid;grid-template-columns:1.7fr .7fr;gap:65px;align-items:center;position:relative;overflow:hidden}.inventoryGate:after{content:"AVE";position:absolute;right:-10px;top:-48px;font:220px Georgia,serif;color:#ffffff05}.inventoryGate h2{font:42px Georgia,serif;margin:8px 0 13px}.inventoryGate p{color:#bac5cc;line-height:1.7;max-width:690px}.inventoryCount{border-left:1px solid #ffffff22;padding-left:45px;position:relative;z-index:1}.inventoryCount strong{display:block;font:58px Georgia,serif;color:#d4af37}.inventoryCount span{display:block;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#aebac1;margin-bottom:22px}@media(max-width:760px){.partnerHead{display:block}.partnerHead h2{font-size:36px}.partnerHead>p:last-child{margin-top:15px}.partnerGrid{grid-template-columns:1fr}.partnerGrid article,.partnerGrid article+article{padding:35px 0;border-left:0;border-top:1px solid #c9c2b5}.partnerGrid article:first-child{border-top:0}.inventoryGate{margin:0 18px 55px;padding:38px 27px;display:block}.inventoryCount{border:0;border-top:1px solid #ffffff22;padding:25px 0 0;margin-top:25px}}
+
+/* AVE premium direction II — graphite / ivory / champagne */
+:root{--deep:#11191c;--navy:#1d292d;--gold:#b99a62;--sand:#e7e1d6;--slate:#8b9697;--off:#f5f2eb;--ink:#151c1e;--green:#193b39}
+body{background:#f5f2eb;color:#151c1e}
+header{background:#101719f2;border-bottom:1px solid #ffffff14}
+.hero:after{background:linear-gradient(90deg,#0b1113ed 0%,#11191cb5 48%,#11191c38 78%),linear-gradient(0deg,#0b1113a8,transparent 50%)}
+.hero h1{font-family:Georgia,"Times New Roman",serif;font-weight:400}.hero h1 em{color:#d0b77f}
+.gold{background:#b99a62!important;color:#11191c!important;border-color:#b99a62!important}
+.outline{border-color:#d6c8a7!important;color:#fff!important}
+.finder{background:#fbfaf6;border-top:1px solid #b99a62;box-shadow:0 30px 80px #11191c1f}
+.marketIntro span,.eyebrow.dark{color:#9a7a42}
+.card{background:#faf9f5;box-shadow:none;border:1px solid #dcd7cd}.card:hover{box-shadow:0 22px 45px #11191c13}
+.body h3{color:#182326}
+.market>.title>span{background:#e8e1d4;color:#735d37}
+.premiumStrip{background:#151e21;border-bottom-color:#b99a62}
+.premiumStrip b{color:#c3a66f}
+.opportunityBand{background:linear-gradient(115deg,#121b1e,#263236)}
+.splitCopy,.capital{background:#151e21}
+.partners{background:#e8e3da}.partnerHead h2{color:#172326}.partnerGrid{border-color:#c8c0b3}.partnerGrid article+article{border-color:#c8c0b3}
+.inventoryGate{background:#11191c}.inventoryCount strong{color:#c3a66f}
+.about{background:#f5f2eb}
+footer{background:#0d1416}
+.brand .mark{color:#f5f2eb}.brand .mark span{color:#c3a66f}
