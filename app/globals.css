@@ -59,3 +59,6 @@ footer{background:#0d1416}
 
 /* Vessel photo display: no crop, explicit fallback when remote photo fails */
 .art{background:#e8eef2!important;overflow:hidden}.art>img{z-index:1}.art>span,.art>strong{z-index:3}.art>strong{background:#071f33cc;padding:5px 8px;border-radius:3px}.imageFallback{display:none;position:absolute;inset:0;align-items:center;justify-content:center;padding:30px;text-align:center;color:#315269;font-size:11px;font-weight:800;letter-spacing:1.2px}.art.image-unavailable .imageFallback{display:flex}.art.image-unavailable>img{display:none}
+
+/* Keep local illustration visible if external listing image fails. */
+.art.image-unavailable>img[data-fallback="true"]{display:block!important;opacity:1!important;object-fit:cover!important}.art.image-unavailable:has(img[data-fallback="true"]) .imageFallback{display:none!important}
